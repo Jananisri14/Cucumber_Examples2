@@ -45,7 +45,6 @@ public class LoginPageAction {
 			prop.load(fileInput);
 
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 		Username = prop.getProperty("username");

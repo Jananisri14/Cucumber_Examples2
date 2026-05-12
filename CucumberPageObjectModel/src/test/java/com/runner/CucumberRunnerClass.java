@@ -8,9 +8,9 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(tags="",
 		features="src/test/resources/features",
 		 glue={"com.definitions"},
-		 plugin= {
-				 "pretty",
+		 plugin= {"pretty",
 				 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+				
 				 
 		 })
 public class CucumberRunnerClass extends AbstractTestNGCucumberTests{

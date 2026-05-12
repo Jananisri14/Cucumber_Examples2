@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\janan\AppData\Local\Temp\testng-eclipse--204526558\testng-customsuite.xml</span>
+                    <span>C:\Users\janan\AppData\Local\Temp\testng-eclipse--1034475163\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,16 +101,6 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User login valid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">runScenario("User login valid credentials", "Tamil_06_05_2005_Login feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">runScenario("Login with Invalid credentials", "Tamil_06_05_2005_Login feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register with valid data&quot;, &quot;Register feature&quot;)">runScenario("Register with valid data", "Register feature")</a> <!-- method navigator-link -->
@@ -128,6 +118,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;add the items to the cart&quot;, &quot;add the items to the cart&quot;)">runScenario("add the items to the cart", "add the items to the cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">runScenario("Login with Invalid credentials", "Tamil_06_05_2005_Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User login valid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">runScenario("User login valid credentials", "Tamil_06_05_2005_Login feature")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -150,84 +150,19 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User login valid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">
-                  </a> <!-- runScenario("User login valid credentials", "Tamil_06_05_2005_Login feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User login valid credentials","Tamil_06_05_2005_Login feature")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=147.0.7727.138)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8965bac1db202bf12b90ee5dde92f25f, findElement {using=xpath, value=//input[@id=&apos;input-email&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\janan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54887}, goog:processID: 8640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54887/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8965bac1db202bf12b90ee5dde92f25f
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at StepDefinitions.LoginTest.user_enters_the(LoginTest.java:34)
-	at ✽.User enters the &quot;tamilkumar@gmail.com&quot;(file:///C:/Users/janan/eclipse-workspace/CucumberDemoPOM/TutorialNinjaDemo/src/test/resources/Features/Login.feature:9)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">
-                  </a> <!-- runScenario("Login with Invalid credentials", "Tamil_06_05_2005_Login feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with Invalid credentials","Tamil_06_05_2005_Login feature")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=147.0.7727.138)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [07ae5720337319689c8ebd23a71249fa, get {url=https://tutorialsninja.com/demo/index.php?route=account/logout}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\janan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56037}, goog:processID: 28324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56037/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 07ae5720337319689c8ebd23a71249fa
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:374)
-	at StepDefinitions.LoginTest.user_on_the_home_page(LoginTest.java:21)
-	at ✽.user on the home page(file:///C:/Users/janan/eclipse-workspace/CucumberDemoPOM/TutorialNinjaDemo/src/test/resources/Features/Login.feature:4)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Register with valid data&quot;, &quot;Register feature&quot;)">
                   </a> <!-- runScenario("Register with valid data", "Register feature") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Register with valid data","Register feature")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
   (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7f09f9f6617360ada14ee9f5e117c066, findElement {using=xpath, value=//span[normalize-space()=&apos;My Account&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\janan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59095}, goog:processID: 13348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59095/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f09f9f6617360ada14ee9f5e117c066
+Command: [fd06204ee50e63d790461b1cdf0540b7, findElement {value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\janan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58322}, goog:processID: 7232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58322/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd06204ee50e63d790461b1cdf0540b7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -239,8 +174,8 @@ Session ID: 7f09f9f6617360ada14ee9f5e117c066
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at StepDefinitions.RegisterTest.user_navigates_to_register_page(RegisterTest.java:39)
-	at ✽.user navigates to Register page(file:///C:/Users/janan/eclipse-workspace/CucumberDemoPOM/TutorialNinjaDemo/src/test/resources/Features/Register.feature:9)
+	at StepDefinitions.RegisterTest.user_should_see(RegisterTest.java:77)
+	at ✽.user should see &quot;Your Account Has Been Created!&quot;(file:///C:/Users/janan/eclipse-workspace/CucumberDemoPOM/TutorialNinjaDemo/src/test/resources/Features/Register.feature:14)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -265,12 +200,32 @@ Session ID: 7f09f9f6617360ada14ee9f5e117c066
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">
+                  </a> <!-- runScenario("Login with Invalid credentials", "Tamil_06_05_2005_Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with Invalid credentials","Tamil_06_05_2005_Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User login valid credentials&quot;, &quot;Tamil_06_05_2005_Login feature&quot;)">
+                  </a> <!-- runScenario("User login valid credentials", "Tamil_06_05_2005_Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User login valid credentials","Tamil_06_05_2005_Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\janan\AppData\Local\Temp\testng-eclipse--204526558\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\janan\AppData\Local\Temp\testng-eclipse--1034475163\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -331,24 +286,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.TestNGRunner')
-data.setCell(0, 3, 16267);
+data.setCell(0, 3, 16598);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runner.TestNGRunner')
-data.setCell(1, 3, 8610);
+data.setCell(1, 3, 10868);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runner.TestNGRunner')
-data.setCell(2, 3, 6110);
+data.setCell(2, 3, 6626);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runner.TestNGRunner')
-data.setCell(3, 3, 5186);
+data.setCell(3, 3, 6298);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -376,34 +331,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.TestNGRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@67531e3a)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5c9934da)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("add the items to the cart", "add the items to the cart")</span>
-                <span class="method-start">517 ms</span>
+                <span class="method-start">447 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("User login valid credentials", "Tamil_06_05_2005_Login feature")</span>
-                <span class="method-start">16787 ms</span>
+                <span class="method-start">11328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Login with Invalid credentials", "Tamil_06_05_2005_Login feature")</span>
-                <span class="method-start">25401 ms</span>
+                <span class="method-start">17628 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Register with valid data", "Register feature")</span>
-                <span class="method-start">30589 ms</span>
+                <span class="method-start">24255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">36703 ms</span>
+                <span class="method-start">40857 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
